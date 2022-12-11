@@ -24,7 +24,7 @@ def download_video():
     
     # Download the video in the selected resolution
     video = yt.streams('mp4', resolution)
-    video.download('C:\\Users\\edmon\\Downloads')
+    video.download('download_path')
 
 # Create a variable to store the selected resolution
 resolution_var = tk.StringVar()
